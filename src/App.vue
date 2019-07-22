@@ -1,28 +1,33 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <form method="get" action="">
+    <hooper>
+      <slide>
+        slide 1
+      </slide>
+      <slide>
+        slide 2
+      </slide>
+      <pagination slot="hooper-addons" />
+    </hooper>
+  </form>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { Hooper, Slide, Pagination } from 'hooper';
+import 'hooper/dist/hooper.css';
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    HelloWorld
+    Hooper,
+    Slide,
+    Pagination,
   }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.hooper-slide {
+  background-color: lightgreen;
 }
 </style>

@@ -2691,6 +2691,11 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
+hooper@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/hooper/-/hooper-0.3.2.tgz#aea053ef19488c490089de3dd3be968b1e38ce95"
+  integrity sha512-rw8PQJfyoGYoLvG9UGIuutlMj7c2r19PB/wLrd6oNtKFBexVr1MHvIt2c7MsepwOUWQYo84aRnoXgbhC7ilyJw==
+
 hoopy@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/hoopy/-/hoopy-0.1.4.tgz#609207d661100033a9a9402ad3dea677381c1b1d"
