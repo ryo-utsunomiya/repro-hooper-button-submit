@@ -1,4 +1,20 @@
-# poc-hooper-button-submit
+# repro-hooper-button-submit
+
+When hooper is used inside the form, hooper-indicator unintentionally submits form.
+
+```
+  <form method="get" action="">
+    <hooper>
+      <slide>
+        slide 1
+      </slide>
+      <slide>
+        slide 2
+      </slide>
+      <pagination slot="hooper-addons" />
+    </hooper>
+  </form>
+```
 
 ## Project setup
 ```
